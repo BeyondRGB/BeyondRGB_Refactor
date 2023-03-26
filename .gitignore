@@ -1,58 +1,13 @@
 ##############
 ## Back End ##
 ##############
+__pycache__/*
+*.tif*
+build/*
+dist/*
+SampleImages/*
+SampleImages
 
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Jetbrains
-.idea/*
-cmake-build-debug
-cmake-build-release
-
-# VCPKG
-vcpkg/
-
-# BUILD
-build/
-
-# VS
-.vscode/
-.vs/
-CMakeSettings.json
-
-# macOS thumbnails
-.DS_Store
 
 ###############
 ## Front End ##
@@ -62,7 +17,6 @@ CMakeSettings.json
 
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[cod]
 *$py.class
 
