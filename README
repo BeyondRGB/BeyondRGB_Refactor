@@ -1,0 +1,18 @@
+BeyondRGB - Spectral Image Calibrator
+=====================================
+BeyondRGB is a spectral image calibration application. This version of the
+application is currently under development and is an attempt to fix poor design
+decision present in the previous version.
+
+Requirements
+------------
+see requirements.txt file
+
+Build
+-----
+BeyondRGB can be built by running the command `make`
+
+Running
+-------
+BeyondRGB can be run by running `./dist/BeyondRGB` after building or by running
+`python3 src/BeyondRGB.py` to run without building

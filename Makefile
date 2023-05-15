@@ -37,18 +37,7 @@ ifeq ($(OS),Windows_NT)  # Windows_NT, XP, 2000, 7, 8, 10, 11...
 	rmdir /S /Q .\out
 else
 	rm BeyondRGB.spec dist build out -rf
-
-venv-init:
-	( \
-	 	python3 -m venv ./venv; \
-	 	. venv/bin/activate; \
-		pip install -r ../requirements.txt; \
-	)
-
-venv-clean:
-	rm -rf venv
-	find -iname "*.pyc" -delete
-
+endif
 
 
 ################################### Testing ###################################
